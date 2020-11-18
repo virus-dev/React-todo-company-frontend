@@ -1,0 +1,8 @@
+@import './variables.scss';
+@import './libs/normalize.scss';
+
+body {
+    &.modal-open {
+        overflow-y: hidden;
+    }
+}
